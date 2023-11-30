@@ -13,8 +13,27 @@ public class Main {
 
         calc.setOperator("➕");
 
-        Double testResult = calc.performCalculations();
-        System.out.println(testResult);
+        Double testResult1 = calc.performCalculations();
+        System.out.println(testResult1);
+
+        calc.setOperator("➖");
+
+        Double testResult2 = calc.performCalculations();
+        System.out.println(testResult2);
+
+        calc.setOperator("✖");
+
+        Double testResult3 = calc.performCalculations();
+        System.out.println(testResult3);
+
+        calc.setOperator("➗");
+
+        Double testResult4 = calc.performCalculations();
+        System.out.println(testResult4);
+
+
         }
+
+
 
 }
